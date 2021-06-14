@@ -16,7 +16,7 @@ get_header();
 			<li>
 					<blockquote class="quote_clientes">
 						<?php the_sub_field('quote'); ?>
-						<cite>?php the_sub_field('nome_quote'); ?></cite>
+						<cite><?php the_sub_field('nome_quote'); ?></cite>
 					</blockquote>
 				</li>
 
